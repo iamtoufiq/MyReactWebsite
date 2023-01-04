@@ -94,10 +94,7 @@ const Services = () => {
                 <img src={image} alt="this is api" />
               </figure>
               <div className="card-data">
-                <h3>
-                  {title}
-                  {id}
-                </h3>
+                <h3>{title}</h3>
                 <p>{description}</p>
                 <NavLink to="/services">
                   <Button className="btn">Read more</Button>

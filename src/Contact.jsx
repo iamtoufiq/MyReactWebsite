@@ -50,15 +50,15 @@ const Contact = () => {
           >
             <input
               type="text"
-              name="userName"
-              placeholder="UserName"
+              name="Name"
+              placeholder="Enter your name.."
               autoComplete="off"
               required
             />
             <input
               type="email"
-              name="eMail"
-              placeholder="Email"
+              name="E-mail"
+              placeholder="E-mail"
               autoComplete="off"
               required
             />
@@ -67,6 +67,7 @@ const Contact = () => {
               cols="30"
               rows="6"
               autoComplete="off"
+              placeholder="type your message.."
               required
             ></textarea>
             <input type="submit" value="send" />

@@ -40,7 +40,7 @@ const Footer = () => {
                 type="email"
                 required
                 autoComplete="off"
-                placeholder="Email"
+                placeholder="E-mail"
                 name="primeMember"
               />
               <input type="submit" value="Prime" />
